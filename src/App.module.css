@@ -3,6 +3,17 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
+.tariffCard {
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.tariffCard div {
+    border: solid 1px;
+    margin: 3px;
+}
+
 .info {
     background-color: #ddd;
 }

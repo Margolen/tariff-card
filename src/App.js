@@ -1,29 +1,29 @@
-import "./App.css";
+import styles from "./App.module.css";
 import TariffCard from "./TariffCard";
 
 function App() {
   return (
-    <div className="app">
+    <div className={styles.app}>
       <TariffCard
         title="Безлимитный 300"
         price="300"
         speed="10"
         info="Объем входящего трафика не ограничен"
-        addClass="card1"
+        addClass={styles.card1}
       />
       <TariffCard
         title="Безлимитный 450"
         price="450"
         speed="50"
         info="Объем входящего трафика не ограничен"
-        addClass="card2"
+        addClass={styles.card2}
       />
       <TariffCard
         title="Безлимитный 550"
         price="550"
         speed="100"
         info="Объем входящего трафика не ограничен"
-        addClass="card3"
+        addClass={styles.card3}
         selected
       />
       <TariffCard
@@ -31,7 +31,7 @@ function App() {
         price="1000"
         speed="200"
         info="Объем входящего трафика не ограничен"
-        addClass="card4"
+        addClass={styles.card4}
       />
     </div>
   );
